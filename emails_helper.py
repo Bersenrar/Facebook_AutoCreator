@@ -9,8 +9,8 @@ from hashlib import md5
 class EmailGenerator:
     def __init__(self):
         self.headers = {
-            "x-rapidapi-key": "c2a168bf65msh394690b1f64e270p1dd8f1jsnaf207a645592",
-            "x-rapidapi-host": "privatix-temp-mail-v1.p.rapidapi.com"
+            "x-rapidapi-key": "",
+            "x-rapidapi-host": ""
         }
 
         self.domains_url = "https://privatix-temp-mail-v1.p.rapidapi.com/request/domains/"
